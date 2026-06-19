@@ -1,0 +1,26 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "bajoterra/home-showcase",
+	"title": "Bajoterra Home Showcase",
+	"category": "widgets",
+	"icon": "layout",
+	"description": "Bloque Gutenberg para presentar el home del proyecto Bajoterra.",
+	"textdomain": "bajoterra-gutenberg-content",
+	"attributes": {
+		"eyebrow": {
+			"type": "string",
+			"default": "Proyecto WordPress"
+		},
+		"title": {
+			"type": "string",
+			"default": "Bajoterra en blanco y negro"
+		},
+		"text": {
+			"type": "string",
+			"default": "Un sitio minimalista con tema hijo, plugins personalizados, API interactiva, quiz y contenido editable desde Gutenberg."
+		}
+	},
+	"editorScript": "file:./index.js",
+	"style": "file:./style-index.css"
+}

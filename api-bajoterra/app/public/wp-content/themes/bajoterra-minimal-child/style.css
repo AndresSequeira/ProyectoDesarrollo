@@ -1,0 +1,11 @@
+/*
+Theme Name: Bajoterra Minimal Child
+Theme URI: https://example.local/bajoterra-minimal-child
+Description: Tema hijo minimalista en blanco y negro para el proyecto final de WordPress.
+Author: Sequeira
+Template: twentytwentyfive
+Version: 1.0.0
+Text Domain: bajoterra-minimal-child
+*/
+
+@import url("../twentytwentyfive/style.css");

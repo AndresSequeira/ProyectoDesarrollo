@@ -1,0 +1,5 @@
+.single-mision .wp-block-post-title,
+.post-type-archive-mision .wp-block-query-title {
+	border-bottom: 1px solid #050505;
+	padding-bottom: 18px;
+}
